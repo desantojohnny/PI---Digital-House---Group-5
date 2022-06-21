@@ -18,6 +18,8 @@ module.exports = (sequelize, DataType) =>{ //modelagem tabela usuario
         timestamps: false
     })
 
+    //teste
+
     return Usuario
 
 }
