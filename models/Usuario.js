@@ -1,4 +1,4 @@
-module.exports = (sequelize, DataType) =>{
+module.exports = (sequelize, DataType) =>{ //modelagem tabela usuario
     const Usuario = sequelize.define('Usuario', {
         id_usuario:{
             type:DataType.INTERGER,

@@ -38,6 +38,12 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
+//routes
+const apiRouter = require('./src/routes/api')
+
+app.use('/api', apiRouter);
+app.listen(3000, () => console.log('Servidor levantado na porta 3000'));
+
 //Servidor 
 
 module.exports = app;
